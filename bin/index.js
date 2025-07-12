@@ -1,11 +1,11 @@
 const { compileCircuit } = require('../lib/compile');
 const { testCircuit } = require('../lib/test');
 const { deployVerifier } = require('../lib/deploy');
-const { verifyProof } = require('../lib/verify');
+const { verify_proof }= require('../lib/verify');
 
 
 module.exports = {
-    verifyProof,
+    verify_proof,
     compileCircuit,
     testCircuit,
     deployVerifier

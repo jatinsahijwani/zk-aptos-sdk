@@ -1,7 +1,7 @@
 {
   "name": "zk-aptos-sdk",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.4",
+  "description": "A CLI + SDK to generate and verify zkSNARK proofs on Aptos using Circom + Groth16.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -9,8 +9,8 @@
   "bin": {
     "zk-aptos-sdk": "./bin/cli.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["zk", "aptos", "snark", "circom", "groth16", "blockchain", "sdk", "cli"],
+  "author": "Jatin Sahijwani jatinsahijwani2151@gmail.com",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
